@@ -33,7 +33,7 @@ img {
 /*FLEX settings*/
 .row {
     display: flex;
-    padding: 10px;
+    
 }
 
 .justify-content-center {
@@ -196,16 +196,7 @@ ul {
 .page-header {
     padding: 30px;
 }
-
-.header [class^='col-'] {
-    padding: 5px;
-}
 /*header-main*/
-.main [class^='col-'] {
-	min-height: 140px;
-	padding: 10px;
-}
-
 .header-main {
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -243,23 +234,7 @@ h2 {
     filter: opacity();
     transform: rotate();
 }*/
-.footer-page ,
-.end-page {
-    background-color: #23272A;
-    padding: 2px;
-    color: white;
-    font-size: 15px;
-}
 
-.footer-page [class^='col-'] {
-    min-height: 200px;
-    padding: 10px;
-}
-
-.end-page [class^='col'] {
-    min-height: 50px;
-    padding: 10px;
-}
 
 .end-main {
     text-align: center;
@@ -284,4 +259,41 @@ h4 {
 
 .footer-page {
     border-bottom: 2px solid #7289da ;
+}
+
+/*debug*/
+
+
+.debug .row {
+    padding: 10px;
+}
+
+
+.debug header [class^='col-'] {
+    padding: 5px;
+}
+
+.debug main [class^='col-'] {
+	min-height: 140px;
+	padding: 10px;
+}
+
+
+.debug .footer-page ,
+.debug .end-page {
+    background-color: #23272A;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.debug .footer-page [class^='col-'] {
+    min-height: 200px;
+    padding: 10px;
+}
+
+.debug .end-page [class^='col'] {
+    min-height: 50px;
+    padding: 10px;
 }
