@@ -13,6 +13,7 @@ body {
 img {
     max-width: 100%;
 }
+
 /*CONTAINER settings*/
 .container {
     max-width: 900px;
@@ -234,7 +235,17 @@ h2 {
     text-align: center;
 }
 
+.bg-violet {
+    color: #7289da;
+}
 
+h4 {
+    font-size: 22px;
+}
+
+#ita-icon {
+    width: 22px;
+}
 /*debug*/
 
 
@@ -252,14 +263,17 @@ h2 {
 	padding: 10px;
 }
 
+
 .debug .footer-page ,
 .debug .end-page {
     background-color: #23272A;
-    padding: 20px;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
 }
 
 .debug .end-page {
-    border-top: 2px solid #d3d3d3;
+    border: 1px dashed black;
 }
 
 .debug .footer-page [class^='col-'] {
