@@ -59,12 +59,13 @@ img {
 }
 
 .gap {
-    gap: 10px;
+    gap: 15px;
 }
 /*change order block*/
+/*
 .third-block .row > .col-4 {
     order: -1;
-}
+}*/
 /*column color*/
 /*.bk-pink{
     background-color: pink;
@@ -199,6 +200,10 @@ h2 {
     font-weight: 200;
 }
 
+/*.bg-img-wave {
+    background-image: url(../img/wave.svg);
+}
+*/
 
 
 /*debug*/
@@ -208,15 +213,6 @@ h2 {
     padding: 10px;
 }
 
-.debug .first-block {
-    background-color: blue;
-}
-
-
-
-.debug .third-block, .fifth-block {
-    background-color: #d3d3d3;
-}
 
 
 .debug [class$='block'] {
