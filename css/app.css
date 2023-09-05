@@ -9,6 +9,10 @@ body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
 /*CONTAINER settings*/
 .container {
     max-width: 900px;
@@ -44,6 +48,14 @@ body {
 
 .align-items-space-around{
     align-items: space-around;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.gap {
+    gap: 10px;
 }
 /*change order block*/
 .third-block .row > .col-4 {
@@ -125,9 +137,14 @@ body {
 /*BUTTONS setting*/
 .buttons {
     background-color: white;
-    border-radius: 3px;
-    padding: 4px;
+    border-radius: 25px;
+    padding: 8px;
     color: black;
+}
+
+#browser-button{
+    background-color: rgba(35, 39, 42, 0.8);
+    color: white;
 }
 
 /*A setting*/
@@ -157,8 +174,9 @@ ul {
 
 h1 {
     font-size: 40px;
-    margin-bottom: 25px;
 }
+
+
 
 
 /*debug*/
@@ -190,9 +208,8 @@ h1 {
 }
 
 .debug main [class^='col-'] {
-	min-height: 180px;
+	min-height: 140px;
 	padding: 10px;
-	border: 1px dashed black;
 	color: white;
 }
 
