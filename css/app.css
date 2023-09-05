@@ -1,0 +1,164 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+/*change order block*/
+.third-block .row > .col-4 {
+    order: -1;
+}
+/*column color*/
+.bk-pink{
+    background-color: pink;
+}
+
+.bk-sky {
+    background-color: #1e90ff ;
+}
+
+.bk-lightblue {
+    background-color: #7fffd4 ;
+}
+
+.bk-blue{
+    background-color: #00008b ;
+}
+
+.bk-yellow {
+    background-color: #daa520 ;
+}
+
+.bk-green {
+    background-color: #228b22;
+}
+
+/*setting column*/
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% /12 * 7);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*debug*/
+.debug .page-header {
+    background-color: #a1c8d5;
+    padding: 20px;
+}
+
+.debug .row {
+    padding: 10px;
+}
+
+.debug .first-block {
+    background-color: blue;
+}
+
+.debug .second-block , .fourth-block {
+    background-color: white;
+}
+
+.debug .third-block, .fifth-block {
+    background-color: #d3d3d3;
+}
+
+
+.debug [class$='block'] {
+    padding: 20px;
+}
+
+.debug header [class^='col-'] {
+    min-height: 50px;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.debug main [class^='col-'] {
+	min-height: 180px;
+	padding: 10px;
+	border: 1px dashed black;
+	color: white;
+}
+
+.debug .footer-page, .end-page {
+    background-color: #23272A;
+    padding: 20px;
+}
+
+.debug .end-page {
+    border-top: 2px solid #d3d3d3;
+}
+
+.debug .footer-page [class^='col-'] {
+    min-height: 180px;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.debug .end-page [class^='col'] {
+    min-height: 50px;
+    padding: 10px;
+}
