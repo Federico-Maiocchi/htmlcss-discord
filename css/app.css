@@ -32,6 +32,7 @@ img {
 /*FLEX settings*/
 .row {
     display: flex;
+    
 }
 
 .justify-content-center {
@@ -46,8 +47,8 @@ img {
     justify-content: space-around;
 }
 
-.align-items-space-around{
-    align-items: space-around;
+.justify-content-flex-end {
+    justify-content: flex-end;
 }
 
 .flex-direction-column {
@@ -56,6 +57,22 @@ img {
 
 .flex-direction-row-reverse {
     flex-direction: row-reverse;
+}
+
+.align-items-space-around {
+    align-items: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
+.flex-wrap {
+   flex-wrap: wrap;
 }
 
 .gap {
@@ -147,9 +164,15 @@ img {
     color: black;
 }
 
-#browser-button{
+#browser-button {
     background-color: rgba(35, 39, 42, 0.8);
     color: white;
+}
+
+#mac-button {
+    background-color: #255ee9;
+    color: white;
+
 }
 
 /*A setting*/
@@ -199,13 +222,17 @@ h2 {
     font-size: small;
     font-weight: 200;
 }
-
-/*.bg-img-wave {
+/*
+.bg-img-wave {
     background-image: url(../img/wave.svg);
+    filter: invert(84%) sepia(15%) saturate(1%) hue-rotate(56deg) brightness(119%) contrast(93%);
+    background-size: contain;
 }
+*/
 
-
-
+.end-main {
+    text-align: center;
+}
 /*debug*/
 
 
@@ -214,11 +241,6 @@ h2 {
 }
 
 
-
-.debug [class$='block'] {
-    padding: 20px;
-}
-
 .debug header [class^='col-'] {
     padding: 5px;
 }
@@ -226,7 +248,6 @@ h2 {
 .debug main [class^='col-'] {
 	min-height: 140px;
 	padding: 10px;
-	color: white;
 }
 
 .debug .footer-page ,
