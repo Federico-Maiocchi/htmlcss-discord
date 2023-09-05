@@ -54,6 +54,10 @@ img {
     flex-direction: column;
 }
 
+.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
 .gap {
     gap: 10px;
 }
@@ -138,7 +142,7 @@ img {
 .buttons {
     background-color: white;
     border-radius: 25px;
-    padding: 8px;
+    padding: 10px;
     color: black;
 }
 
@@ -170,12 +174,30 @@ ul {
     padding: 20px;
     min-height: 300px;
     text-align: center;
+    color: white;
 }
 
 h1 {
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+/*explanation*/
+.explanation {
+    padding: 10px;
+    color: black;
 }
 
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.col-4 > p {
+    color: black;
+    font-size: small;
+    font-weight: 200;
+}
 
 
 
@@ -190,9 +212,7 @@ h1 {
     background-color: blue;
 }
 
-.debug .second-block , .fourth-block {
-    background-color: white;
-}
+
 
 .debug .third-block, .fifth-block {
     background-color: #d3d3d3;
